@@ -35,6 +35,9 @@ Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Auth::routes();
 Route::prefix('admin/')->group(function () {
 
-Route::get('/menu', [HomeController::class, 'index'])->name('home');
+Route::get('/menu', [HomeController::class, 'index'])->name('menu');
+Route::get('/menuabout', [HomeController::class, 'about'])->name('menuabout');
+Route::get('/menuservice', [HomeController::class, 'service'])->name('menuservice');
+Route::get('/menuproject', [HomeController::class, 'project'])->name('menuproject');
 
 });

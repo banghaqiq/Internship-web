@@ -37,16 +37,16 @@
                             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                                 <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#" style="color: whitesmoke !important; font-weight:600">Home</a>
+                                    <a class="nav-link" aria-current="page" href="{{ route('menu') }}" style="color: whitesmoke !important; font-weight:600;border-bottom:{{ Request::routeIs('menu') ? '1px solid whitesmoke' : '' }}">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#" style="color: whitesmoke !important; font-weight:600">About</a>
+                                    <a class="nav-link" href="{{ route('menuabout') }}" style="color: whitesmoke !important; font-weight:600;border-bottom:{{ Request::routeIs('menuabout') ? '1px solid whitesmoke' : '' }}">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#" style="color: whitesmoke !important; font-weight:600">Service</a>
+                                    <a class="nav-link" href="{{ route('menuservice') }}" style="color: whitesmoke !important; font-weight:600;border-bottom:{{ Request::routeIs('menuservice') ? '1px solid whitesmoke' : '' }}">Service</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#" style="color: whitesmoke !important; font-weight:600">Project</a>
+                                    <a class="nav-link" href="{{ route('menuproject') }}" style="color: whitesmoke !important; font-weight:600;border-bottom:{{ Request::routeIs('menuproject') ? '1px solid whitesmoke' : '' }}">Project</a>
                                 </li>
                                 </ul>
                             </div>
