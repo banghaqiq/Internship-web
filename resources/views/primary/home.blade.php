@@ -96,7 +96,7 @@
 
 
     <!-- Testimonial Start -->
-    @include('component.home.testimonial')
+    {{-- @include('component.home.testimonial') --}}
     <!-- Testimonial End -->
 
 
