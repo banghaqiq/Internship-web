@@ -62,7 +62,7 @@
 
 
     <!-- Features Start -->
-    @include('component.home.fetures')
+    {{-- @include('component.home.fetures') --}}
     <!-- Features End -->
 
 
@@ -76,7 +76,7 @@
     <!-- Video Modal End -->
 
     <!-- Service Start -->
-    @include('component.home.service')
+    {{-- @include('component.home.service') --}}
     <!-- Service End -->
 
 
