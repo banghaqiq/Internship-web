@@ -76,7 +76,7 @@
     <!-- Video Modal End -->
 
     <!-- Service Start -->
-    @include('component.home.service')
+    {{-- @include('component.home.service') --}}
     <!-- Service End -->
 
 

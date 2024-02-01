@@ -12,7 +12,7 @@
                 <div class="navbar-nav">
                     <a href="{{ route('home')}}" class="nav-item nav-link " style="color:{{ Request::routeIs('home') ? 'blue' : '' }}">Home</a>
                     <a href="{{ route('about') }}" class="nav-item nav-link" style="color:{{ Request::routeIs('about') ? 'blue' : '' }}">About</a>
-                    <a href="{{ route('service') }}" class="nav-item nav-link" style="color:{{ Request::routeIs('service') ? 'blue' : '' }}">Service</a>
+                    {{-- <a href="{{ route('service') }}" class="nav-item nav-link" style="color:{{ Request::routeIs('service') ? 'blue' : '' }}">Service</a> --}}
                     <a href="{{ route('project') }}" class="nav-item nav-link" style="color:{{ Request::routeIs('project') ? 'blue' : '' }}">Project</a>
                     <a href="{{ route('contact') }}" class="nav-item nav-link" style="color:{{ Request::routeIs('contact') ? 'blue' : '' }}">Contact</a>
                 </div>
