@@ -62,7 +62,7 @@
 
 
     <!-- Features Start -->
-    @include('component.home.fetures')
+    {{-- @include('component.home.fetures') --}}
     <!-- Features End -->
 
 
@@ -96,7 +96,7 @@
 
 
     <!-- Testimonial Start -->
-    @include('component.home.testimonial')
+    {{-- @include('component.home.testimonial') --}}
     <!-- Testimonial End -->
 
 
